@@ -16,7 +16,7 @@ export default function Home() {
         userId: 1,
     }),
 }).then((e:any)=>{
-  console.log("sdsdsd",e);
+  console.log("이거 왜넣은거지?",e);
   
 
 })
