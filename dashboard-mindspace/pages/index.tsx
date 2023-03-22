@@ -7,6 +7,8 @@ import { useState } from 'react'
 import { CLIENT_RENEG_LIMIT } from 'tls'
 import { useRouter } from 'next/router'
 
+import Button from '@mui/material/Button';
+
 
 
 
@@ -57,7 +59,7 @@ return e.json()
   return (
     <>
 
-<h1 onClick ={login}>로그인 페이지 </h1>
+<Button variant="contained" onClick ={login}>로그인 페이지 </Button>
     
 
        <h2 onClick={post}>
