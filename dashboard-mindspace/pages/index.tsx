@@ -33,10 +33,11 @@ const login = ()=>{
 
   const post = ()=>{
 
- fetch("http://localhost:4000/post", 
+ fetch("http://localhost:8080/post", 
  option
 
 ).then((e)=>{
+  
 return e.json()
 }).then((d)=>{
   console.log("d",d)
